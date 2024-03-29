@@ -1,67 +1,142 @@
-body{
-    background-color: black;
-    color: white
-  }
-  .one{
-  display: flex;
-  height: 500px;
-  justify-content: space-between;
-  margin:50px 0
-  }
- 
-  .text{
-    width: 85%;
-    align-self: center;
-  }
-  .text h1{
-    text-align: center;
-    font-family: "Rubik Maps", system-ui;
-    font-weight: 400;
-  }
-  .text p{
-    text-align: center;
-    width: 400px;
-    margin:  auto;
-   
-  }
-  .images{
-    width: 50%;
-    position: relative;
-    z-index: 1;
-  }
-  .box{
-    width: 200px;
-    height: 200px;
-    margin: 0 10px;
+body {
+  background-color: #fff;
+  color: black;
+}
 
-  }
-  .img-one{
-    position: absolute;
-    left: 0;
-    top: 0;
-    margin : 10px 30px;
-   
-  }
-  .img-one img,.img-two img, .img-three img{
-   background-size: cover;
-   width: 100%;
-   height: 100%;
-  }
-  .img-two{
-    position: absolute;
-    top: 25%;
-    left: 40%;
-  }
-  .img-three{
-    position: absolute;
-    top: 55%;
-    left: 0;
-  } 
-  p{
-    
-        font-family: "Lily Script One", system-ui;
-        font-weight: 400;
-        font-style: normal;
-  
-  }
-  
+header {
+  display: flex;
+  justify-content: space-between;
+  border: solid;
+  color: white;
+  background: black;
+}
+.tributeHeader {
+  font-family: Cambria, Cochin, Georgia, Times, serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+  font-size: 18px;
+  font-weight: bolder;
+  margin-right: 10px;
+}
+.main-ctn {
+  display: flex;
+
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 50px 10px;
+}
+
+.text-ctn {
+  width: 85%;
+  align-self: center;
+  text-align: center;
+  justify-self: center;
+}
+.text-ctn h1 {
+  text-align: center;
+  font-family: "Rubik Maps", system-ui;
+
+  font-weight: 400;
+
+  margin: 0 auto;
+}
+.text-ctn p {
+  text-align: center;
+  width: 54%;
+  margin: 30px auto;
+}
+.images-ctn {
+  width: 500px;
+  height: 550px;
+  margin-right: 10px;
+  position: relative;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  margin: 0 10px;
+
+  width: fit-content;
+}
+.img-one {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.img-one img,
+.img-two img,
+.img-three img {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.img-two {
+  position: absolute;
+  top: 25%;
+  left: 35%;
+
+  z-index: 1;
+}
+.img-three {
+  position: absolute;
+  top: 55%;
+  left: 0;
+}
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 17px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#memory-ctn {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-bottom: 40px;
+  text-align: center;
+  width: 500px;
+  margin-right: 100px;
+}
+.tribute-ctn {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-bottom: 40px;
+  text-align: center;
+  width: 500px;
+  margin-left: 100px;
+}
+
+.tribute-ctn img {
+  width: 100%;
+  height: 350px;
+}
+
+.section-ctn {
+  text-align: center;
+}
+.section-ctn p {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.h1-ctn {
+  margin: 0 auto;
+  width: 350px;
+}
+.Second-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 100px;
+}
