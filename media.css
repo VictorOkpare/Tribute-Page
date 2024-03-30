@@ -13,9 +13,12 @@
   .images-ctn {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 350px;
     align-items: center;
-    margin-bottom: 20px;
+    margin: 20px auto;
+  }
+  .memoryImg-ctn img{
+    width: 350px;
   }
 }
 .box {
@@ -24,9 +27,7 @@
   margin: 10px;
 }
 
-.story-ctn h3 {
-  text-align: center;
-}
+
 
 .storyText-ctn {
   display: flex;
