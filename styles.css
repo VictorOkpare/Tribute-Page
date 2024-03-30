@@ -1,6 +1,8 @@
 body {
   background-color: #fff;
   color: black;
+  margin: 0px;
+  padding: 0px;
 }
 
 header {
@@ -9,6 +11,7 @@ header {
   border: solid;
   color: white;
   background: black;
+  border-color: black;
 }
 .tributeHeader {
   font-family: Cambria, Cochin, Georgia, Times, serif;
@@ -23,14 +26,14 @@ ul {
   gap: 50px;
   font-size: 18px;
   font-weight: bolder;
-  margin-right: 10px;
+  margin-right: 16px;
 }
 .main-ctn {
   display: flex;
 
   flex-direction: row;
   justify-content: space-between;
-  margin: 50px 10px;
+  margin: 0px 0px;
 }
 
 .text-ctn {
@@ -51,17 +54,23 @@ ul {
   text-align: center;
   width: 54%;
   margin: 30px auto;
+  font-family: "Teko", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(59, 50, 50);
 }
 .images-ctn {
   width: 500px;
   height: 550px;
-  margin-right: 10px;
+  /* margin-right: 10px; */
+  padding: 0px;
   position: relative;
+  /* border: solid; */
 }
 .box {
   width: 200px;
   height: 200px;
-  margin: 0 10px;
+  /* margin: 0 10px; */
 
   width: fit-content;
 }
@@ -100,43 +109,68 @@ a {
   color: white;
 }
 
-#memory-ctn {
-  display: flex;
-  flex-direction: column-reverse;
-  margin-bottom: 40px;
-  text-align: center;
-  width: 500px;
-  margin-right: 100px;
-}
-.tribute-ctn {
-  display: flex;
-  flex-direction: column-reverse;
-  margin-bottom: 40px;
-  text-align: center;
-  width: 500px;
-  margin-left: 100px;
-}
-
-.tribute-ctn img {
-  width: 100%;
-  height: 350px;
-}
-
-.section-ctn {
-  text-align: center;
-}
-.section-ctn p {
-  width: 100%;
-  margin: 0 auto;
-}
-
-.h1-ctn {
-  margin: 0 auto;
-  width: 350px;
-}
 .Second-section {
+  margin-top: 100px;
+  width: 100%;
+}
+
+.story-ctn {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  gap: 100px;
+  flex-direction: column;
+}
+
+.story-ctn h3 {
+  font-family: "Rubik Maps", system-ui;
+  font-weight: 400;
+  text-align: left;
+  border: gray solid;
+  background-color: black;
+  color: white;
+  padding-left: 50px;
+}
+
+.storyText-ctn {
+  display: flex;
+  padding: 20px;
+  gap: 25px;
+}
+
+.storyText-ctn p {
+  font-size: 18px;
+  font-family: "Teko", sans-serif;
+}
+
+.memory-ctn h3 {
+  font-family: "Rubik Maps", system-ui;
+  font-weight: 400;
+  text-align: left;
+  border: gray solid;
+  background-color: black;
+  color: white;
+  padding-left: 50px;
+}
+
+.memory-ctn p {
+  font-size: 18px;
+  font-family: "Teko", sans-serif;
+}
+.memory-Pctn {
+  padding: 20px;
+}
+.memoryImg-ctn {
+  width: 500px;
+  margin: 20px;
+}
+
+.memory-ctn img {
+  width: 100%;
+}
+footer {
+  background-color: black;
+  color: white;
+}
+footer p {
+  text-align: center;
+  font-size: 20px;
+  font-family: "Teko", sans-serif;
 }
